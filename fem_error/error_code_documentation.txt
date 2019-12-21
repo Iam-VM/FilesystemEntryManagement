@@ -1,1 +1,8 @@
- 
+CODE:                 Error:
+
+0                     Safe and successful execution
+-1                    Fatal Error during command line parsing
+-2                    --src <args> missing
+-3                   --src used without <args>
+-4                   Invalid options combination [Not under use]
+-5                   --target used without <args>

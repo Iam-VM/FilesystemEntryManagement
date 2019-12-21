@@ -27,7 +27,7 @@ int main(int argc, char* argv[])
     ("ls", "to list entries in the entries specified using --src or -s")
     ("lsR", "to recursively list all entries in the entry specified using --src or -s")
     ("move, m", "to move entries specified using --src or -s to entries specified using --target or -t ")
-    ("rename,r", po::value<std::string>(), "to rename entries specified using --src or -s [takes the new name as argument!!]")
+    ("rename,r", po::value<std::string>(&new_name), "to rename entries specified using --src or -s [takes the new name as argument!!]")
     ("src, s", po::value<std::vector<std::string>>(&src_vector)->multitoken(), "to specify paths of source entries[entries can be files/directories/symlinks !!]")
     ("target, t", po::value<std::vector<std::string>>(&target_vector)->multitoken(), "to specify paths of the targets");
 
