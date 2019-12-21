@@ -4,7 +4,7 @@
 # Compiled Object files
 *.slo
 *.lo
-6*.o
+*.o
 *.obj
 
 # Precompiled Headers
@@ -12,7 +12,7 @@
 *.pch
 
 # Compiled Dynamic libraries
-/6.so
+/.so
 *.dylib
 /.dll
 
